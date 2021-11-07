@@ -1,0 +1,42 @@
+.slide {
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+}
+.slide h3 {
+    position: absolute;
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+}
+.slide.active {
+    flex: 10;
+
+}
+.slide.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+.car-audi {
+    background-image: url("./assets/audi.jpg");
+}
+.car-lamba {
+    background-image: url("./assets/lamba.jpg");
+}
+.car-bugatti {
+    background-image: url("./assets/bugatti.jpg");
+}
+.car-bmw {
+    background-image: url("./assets/bmw.jpg");
+}
+.car-mercedes {
+    background-image: url("./assets/mercedes.jpg");
+}
